@@ -1,0 +1,27 @@
+**********************
+PowerShell transcript start
+Start time: 20261011201334
+Username: 高频交易\bombl
+RunAs User: 高频交易\bombl
+Configuration Name: 
+Machine: 高频交易 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files (x86)\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\mcp-agent-workspace\port-golang-windows-ime\install.ps1 -SkipBuild
+Process ID: 21256
+PSVersion: 7.3.2
+PSEdition: Core
+GitCommitId: 7.3.2
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.2
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+错误: 系统找不到指定的注册表项或值。
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: The process cannot access the file 'D:\mcp-agent-workspace\port-golang-windows-ime\install\ime-gui.exe' because it is being used by another process."
+The process cannot access the file 'D:\mcp-agent-workspace\port-golang-windows-ime\install\ime-gui.exe' because it is being used by another process.
+at <ScriptBlock>, D:\mcp-agent-workspace\port-golang-windows-ime\install.ps1: line 171
+**********************
+PowerShell transcript end
+End time: 20261011201334
+**********************

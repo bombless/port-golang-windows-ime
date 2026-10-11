@@ -1,0 +1,32 @@
+**********************
+PowerShell transcript start
+Start time: 20261011213154
+Username: 高频交易\bombl
+RunAs User: 高频交易\bombl
+Configuration Name: 
+Machine: 高频交易 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files (x86)\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -File D:\mcp-agent-workspace\port-golang-windows-ime\install-dll.ps1 -SkipBuild
+Process ID: 16636
+PSVersion: 7.3.2
+PSEdition: Core
+GitCommitId: 7.3.2
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.2
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+错误: 系统找不到指定的注册表项或值。
+错误: 系统找不到指定的注册表项或值。
+Installed and verified:
+  Name:    Go Chinese Input Method
+  CLSID:   {C2D4A9B1-7F63-4A85-9E20-4B6D8C1F3072}
+  Profile: {E731B5D4-2A90-4F68-AC13-7D5E9B2046F1}
+  DLL:     D:\mcp-agent-workspace\port-golang-windows-ime\install\PortGoWindowsIME-20261011-213154703.dll
+
+Restart the target application and select 'Go Chinese Input Method'.
+**********************
+PowerShell transcript end
+End time: 20261011213200
+**********************
