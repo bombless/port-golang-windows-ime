@@ -79,7 +79,11 @@ if (-not $Unregister -and -not $SkipBuild) {
 
 if (-not $SkipBuild) {
     New-Item -ItemType Directory -Force -Path $buildDir | Out-Null
-    & clang -m64 -O2 -o $registerHost (Join-Path $PSScriptRoot "tip\registerhost.c")
+    Push-Location $PSScriptRoot
+    try {
+        & go build -o $registerHost ./cmd/registerhost
+    }
+    finally { Pop-Location }
     if ($LASTEXITCODE -ne 0) { throw "Registration host build failed with exit code $LASTEXITCODE." }
 }
 
